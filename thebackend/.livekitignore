@@ -1,0 +1,33 @@
+# Ignore Flutter frontend completely
+frontend/
+
+# Flutter / Dart junk
+.dart_tool/
+.pub-cache/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build / IDE caches
+build/
+*.gradle/
+*.idea/
+*.iml
+*.lock
+
+
+
+# Ignore Flutter & frontend build/cache
+frontend/
+*.dart_tool/
+*.pub-cache/
+*.gradle/
+*.idea/
+build/
+
+# Ignore local venvs
+venv/
+.env
+__pycache__/
+*.pyc
+
